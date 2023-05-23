@@ -4,21 +4,21 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#" id="new_Recruit">New Recruit</a></li>
-        <li><a href="#" id="search">Search</a></li>
+        <li><a href="#myModal" id="new_Recruit">New Recruit</a></li>
       </ul>
     </nav>
-  </header>
+</header>
   <style>
     /* HEADER STYLE */
 header {
+    margin-bottom: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: black;
+    background: transparent;
     box-shadow: 0 0 5px black;
   }
   
@@ -36,7 +36,8 @@ header {
     margin: 0 10px;
   }
   
-  nav a {
+  nav a {padding-left: 20px;
+    word-spacing: 5px;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -45,8 +46,10 @@ header {
   /* END OF HEADER STYLES */
   /* SMALL SCRREN STYLES */
   @media screen and (max-width: 768px) {
+
     header {
       flex-direction: column;
+      margin-bottom: 5%;
     }
     
     .logo {

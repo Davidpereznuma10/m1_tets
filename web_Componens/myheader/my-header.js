@@ -13,23 +13,17 @@ export default class myHeader extends HTMLElement{
             (e.type==='click'? this.evento() : '')
             e.preventDefault();
         };
-        evento(e) {
+        evento() {
             const new_recruit = this.shadowRoot.querySelector('#new_Recruit');
-            const search = this.shadowRoot.querySelector('#search');
             new_recruit.addEventListener('click', (e) => {
               console.log('New');
-            });
-            search.addEventListener('click', (e) => {
-              console.log('find it');
             });
           }
         connectedCallback(){
             Promise.resolve(myHeader.component()).then(html=>{
                 this.shadowRoot.innerHTML=html;
                 const new_recruit = this.shadowRoot.querySelector('#new_Recruit');
-                const search = this.shadowRoot.querySelector('#search');
                 new_recruit.addEventListener('click', this);
-                search.addEventListener('click',this);
             })
         };
 }
