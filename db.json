@@ -1,0 +1,85 @@
+{
+    "reclutas": [
+      {
+        "id": 1,
+        "name": "Juan David Pérez Numa",
+        "age": 23,
+        "phone": "3142822856",
+        "email": "Jdpereznuma@gmail.com",
+        "addres": "villa josefina casa 260, piedecuesta",
+        "born": "31/10/99",
+        "dni": 1098824149,
+        "into": "27/02/23",
+        "id_team": 1
+      }
+    ],
+    "team": [
+      {
+        "id": 1,
+        "name": "Team 1",
+        "trainer_asociado": "Miguel"
+      },
+      {
+        "id": 2,
+        "name": "Team 2",
+        "trainer_asociado": "Miguel"
+      },
+      {
+        "id": 3,
+        "name": "Team 3",
+        "trainer_asociado": "Miguel"
+      },
+      {
+        "id": 4,
+        "name": "Team 4",
+        "trainer_asociado": "Miguel"
+      }
+    ],
+    "skill": [
+      {
+        "id": 1,
+        "nombre": "Js"
+      },
+      {
+        "id": 2,
+        "nombre": "Html"
+      },
+      {
+        "id": 3,
+        "nombre": "Css"
+      },
+      {
+        "id": 2,
+        "nombre": "Html"
+      },
+      {
+        "id": 2,
+        "nombre": "Html"
+      }
+    ],
+    "modulo Skill": [
+      {
+        "id": 1,
+        "nombre": "Web",
+        "id_skill": 1
+      },
+      {
+        "id": 2,
+        "nombre": "English",
+        "id_skill": 4
+      },
+      {
+        "id": 3,
+        "nombre": "Be",
+        "id_skill": 5
+      }
+    ],
+    "evaluacion": [
+      {
+        "id": 1,
+        "id_recluta": 1,
+        "id_modulo": 1,
+        "nota": 5
+      }
+    ]
+  }
