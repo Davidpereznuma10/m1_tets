@@ -1,0 +1,110 @@
+
+<div>
+    <nav id="card">
+        <h1>CREATE A NEW RECRUIT</h1>
+        <div id="card">
+            <section>
+                <form >
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Name" id="name">
+                    <label for="">Age</label  >
+                    <input type="number" placeholder="Age" id="age">
+                    <label for="">Number</label>
+                    <input type="tel" placeholder="Number" id="number">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Email" id="email">
+                    <label for="">Address</label>
+                    <input type="text" placeholder="Address" id="address">
+                    <label for="">Date Of Born</label>
+                    <input type="date" placeholder="Date Of Born" id="born">
+                    <label for="">Dni</label>
+                    <input type="number" placeholder="Dni" id="dni">
+                    <label for="">Date Of Admission</label>
+                    <input type="date" placeholder="Date Of Admission" id="admission">
+                    <label for="">Team</label>
+                    <input type="text" placeholder="Team" id="Team"><br>
+                    
+                    <my-Button></my-Button>
+                </form>
+            </section>
+        </div>
+    </nav>
+</div>
+
+<style>
+   /* MODAL STYLES */
+    #card{
+        box-shadow:1px 1px 20px 15px #06d9f5;;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        background: transparent;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    #card h1{
+        font-size: 40px;
+        text-shadow:20px 15px 7px #06d9f5;
+        font-family: monospace;
+        text-align: center;
+        color: snow;
+        margin-bottom: 10%;
+    }
+    #card section{
+        justify-content: center;
+
+        align-items: center;
+        flex-direction: column;
+    }
+    #card form{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    form label{
+        display: flex;
+        color: snow;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    form input{
+        height: 40px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        filter: opacity(0.5);
+    }
+
+    /* END OF MODAL STYLES */
+    /* SMALL SCREEN STYLE */
+    @media screen and (max-width:768px){
+        #card{
+            width: 80%;
+        }
+        #card h1{
+            font-size: 25px;
+
+        }
+        #card label{
+            font-size: 12.5px;
+            justify-content: center;
+        }
+        #card input{
+            height: 20px;
+        }
+        .btn{
+            width: 50%;
+        }
+    }    
+    </style>
+
+
+
+
+
+
+
